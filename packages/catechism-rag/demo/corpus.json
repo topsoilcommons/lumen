@@ -1,7 +1,7 @@
 {
   "corpus": "Baltimore Catechism No. 2, selected lessons (public domain)",
   "source_url": "https://www.gutenberg.org/cache/epub/14552/pg14552.txt",
-  "passage_count": 62,
+  "passage_count": 66,
   "excluded": [
     {
       "id": "BC2 Q.241",
@@ -395,6 +395,38 @@
       "lesson": "On the Sacrament of Penance",
       "question": "How do the priests of the Church exercise the power of forgiving sins?",
       "answer": "The priests of the Church exercise the power of forgiving sins by hearing the confession of sins, and granting pardon for them as ministers of God and in His name.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.191",
+      "question_number": 191,
+      "lesson": "On the Sacrament of Penance",
+      "question": "What must we do to receive the Sacrament of Penance worthily?",
+      "answer": "To receive the Sacrament of Penance worthily we must do five things: 1. We must examine our conscience. 2. We must have sorrow for our sins. 3. We must make a firm resolution never more to offend God. 4. We must confess our sins to the priest. 5. We must accept the penance which the priest gives us.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.192",
+      "question_number": 192,
+      "lesson": "On the Sacrament of Penance",
+      "question": "What is the examination of conscience?",
+      "answer": "The examination of conscience is an earnest effort to recall to mind all the sins we have committed since our last worthy confession.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.193",
+      "question_number": 193,
+      "lesson": "On the Sacrament of Penance",
+      "question": "How can we make a good examination of conscience?",
+      "answer": "We can make a good examination of conscience by calling to memory the commandments of God, the precepts of the Church, the seven capital sins, and the particular duties of our state in life, to find out the sins we have committed.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.194",
+      "question_number": 194,
+      "lesson": "On the Sacrament of Penance",
+      "question": "What should we do before beginning the examination of conscience?",
+      "answer": "Before beginning the examination of conscience we should pray to God to give us light to know our sins and grace to detest them.",
       "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
     },
     {
