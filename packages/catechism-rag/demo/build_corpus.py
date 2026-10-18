@@ -7,8 +7,9 @@ Catechism), public domain, Project Gutenberg ebook 14552:
 https://www.gutenberg.org/cache/epub/14552/pg14552.txt
 
 The corpus is a deliberately small selection of lessons (the end of
-man, the sacraments in general, Baptism, Confirmation, Penance, the
-Holy Eucharist, prayer), 51 questions in total.
+man, the sacraments in general, Baptism, Confirmation, the gifts and
+fruits of the Holy Ghost, Penance, the Holy Eucharist, prayer), 62
+questions in total.
 
 Two questions are excluded on purpose, and the exclusion is part of
 the design record: Q. 241 and Q. 242 quote the words of consecration
@@ -27,6 +28,12 @@ anointing, was checked and returned no refusal; its answer quotes
 the Confirmation form, not the words of absolution, consecration,
 or ordination that the refuser rejects by shape.
 
+Lesson Sixteenth, On the Gifts and Fruits of the Holy Ghost
+(Q. 176 to Q. 186), was added on 2026-10-18. Every one of its eleven
+answers was checked against the output refuser before it was added,
+in the same way as the rest of the corpus: none tripped it, so this
+lesson has no exclusions.
+
 Usage: python build_corpus.py <path-to-pg14552.txt> [out.json]
 """
 
@@ -40,6 +47,7 @@ SELECTED = (
     + list(range(136, 142))     # the sacraments in general
     + list(range(152, 158))     # Baptism
     + list(range(166, 176))     # Confirmation
+    + list(range(176, 187))     # the gifts and fruits of the Holy Ghost
     + list(range(187, 191))     # Penance
     + [238, 239, 240]           # the Holy Eucharist (241, 242 excluded, see above)
     + list(range(243, 249))
@@ -51,6 +59,7 @@ LESSONS = [
     (136, 141, "On the Sacraments in General"),
     (152, 157, "On Baptism"),
     (166, 175, "On Confirmation"),
+    (176, 186, "On the Gifts and Fruits of the Holy Ghost"),
     (187, 190, "On the Sacrament of Penance"),
     (238, 248, "On the Holy Eucharist"),
     (303, 307, "On Prayer"),
