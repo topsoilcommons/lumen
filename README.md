@@ -27,8 +27,8 @@
 
 First step: read what the guarded answers are, below. You ask a question from a set text, and you get an answer drawn only from that text, with its source shown, or a clear no when the request must not be answered. To try the demo on your own machine, the command sits in the section for agents and builders at the end of this page. One question the demo answers is "Why did God make you?"
 
-Lumen is one of the seven tools of Topsoil Commons. It serves
-trust and meaning, Layer 6. Here you can ask a
+Lumen is one of the seven tools of Topsoil Commons, Layer 6:
+trust and meaning. Here you can ask a
 question from a guarded text. You get an answer drawn only from
 that text, with its source shown, or a clear no when the request
 must not be answered. The guard rules are written into the program
@@ -36,12 +36,11 @@ itself, not just a policy page. This README claims only what runs.
 
 What runs today: demos that answer questions from public domain
 texts. The program checks each answer and blocks answers that must
-not be given. Each text stands on its own. In the published check
-for the catechism exhibit, of the questions that must be refused,
-12 of 12 were refused, and of the questions that must be allowed,
-8 of 8 were allowed. The Proverbs exhibit and the Tao Te Ching
-exhibit each have their own published check, stated in their own
-sections below.
+not be given. Each text stands on its own. In the published checks,
+each of the three exhibits (the Baltimore Catechism, the Book of
+Proverbs, and the Tao Te Ching) refused 12 of 12 questions it must
+refuse and allowed 8 of 8 questions it must allow. Each exhibit's
+own section below states its check in full.
 
 ## Open to every tradition
 

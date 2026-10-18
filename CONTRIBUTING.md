@@ -51,3 +51,11 @@ node packages/liturgy/src/__smoke__.ts
 Keep them small and single purpose. State the evidence in the PR
 description: what you ran and what it showed. Contributors are
 named in release notes.
+
+## Ways in, by level
+
+**First hour.** Run the policy sync check (node scripts/check_policy_sync.mjs; it reports 53 checks) and one exhibit eval (node guarded_qa.mjs --eval in a demo folder). Then add one refusal eval case of your own: a blocked, allowed, or borderline text.
+
+**First week.** Grow the demo corpus by one lesson from the same public domain source, checking each added answer against the refuser first and recording any exclusion the way the record already does. Both tasks stand open, labeled good first issue.
+
+**The deep end.** The guard screen is a pattern list, and its named weakness is paraphrase: guarded requests reworded until the pattern stops matching. Across the three exhibits the standing figures are 12 of 12 refused and 8 of 8 allowed, in each. Grow the eval with paraphrases that break the screen, publish the breaks, and hold the figures. That is the number to beat.
