@@ -1,7 +1,7 @@
 {
   "corpus": "Baltimore Catechism No. 2, selected lessons (public domain)",
   "source_url": "https://www.gutenberg.org/cache/epub/14552/pg14552.txt",
-  "passage_count": 66,
+  "passage_count": 79,
   "excluded": [
     {
       "id": "BC2 Q.241",
@@ -427,6 +427,110 @@
       "lesson": "On the Sacrament of Penance",
       "question": "What should we do before beginning the examination of conscience?",
       "answer": "Before beginning the examination of conscience we should pray to God to give us light to know our sins and grace to detest them.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.195",
+      "question_number": 195,
+      "lesson": "On Contrition",
+      "question": "What is contrition, or sorrow for sin?",
+      "answer": "Contrition, or sorrow for sin, is a hatred of sin and a true grief of the soul for having offended God, with a firm purpose of sinning no more.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.196",
+      "question_number": 196,
+      "lesson": "On Contrition",
+      "question": "What kind of sorrow should we have for our sins?",
+      "answer": "The sorrow we should have for our sins should be interior, supernatural, universal, and sovereign.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.197",
+      "question_number": 197,
+      "lesson": "On Contrition",
+      "question": "What do you mean by saying that our sorrow should be interior?",
+      "answer": "When I say that our sorrow should be interior, I mean that it should come from the heart, and not merely from the lips.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.198",
+      "question_number": 198,
+      "lesson": "On Contrition",
+      "question": "What do you mean by saying that our sorrow should be supernatural?",
+      "answer": "When I say that our sorrow should be supernatural, I mean that it should be prompted by the grace of God, and excited by motives which spring from faith, and not by merely natural motives.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.199",
+      "question_number": 199,
+      "lesson": "On Contrition",
+      "question": "What do you mean by saying that our sorrow should be universal?",
+      "answer": "When I say that our sorrow should be universal, I mean that we should be sorry for all our mortal sins without exception.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.200",
+      "question_number": 200,
+      "lesson": "On Contrition",
+      "question": "What do you mean when you say that our sorrow should be sovereign?",
+      "answer": "When I say that our sorrow should be sovereign, I mean that we should grieve more for having offended God than for any other evil that can befall us.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.201",
+      "question_number": 201,
+      "lesson": "On Contrition",
+      "question": "Why should we be sorry for our sins?",
+      "answer": "We should be sorry for our sins, because sin is the greatest of evils and an offense against God our Creator, Preserver, and Redeemer, and because it shuts us out of heaven and condemns us to the eternal pains of hell.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.202",
+      "question_number": 202,
+      "lesson": "On Contrition",
+      "question": "How many kinds of contrition are there?",
+      "answer": "There are two kinds of contrition: perfect contrition and imperfect contrition.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.203",
+      "question_number": 203,
+      "lesson": "On Contrition",
+      "question": "What is perfect contrition?",
+      "answer": "Perfect contrition is that which fills us with sorrow and hatred for sin, because it offends God, who is infinitely good in Himself and worthy of all love.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.204",
+      "question_number": 204,
+      "lesson": "On Contrition",
+      "question": "What is imperfect contrition?",
+      "answer": "Imperfect contrition is that by which we hate what offends God, because by it we lose heaven and deserve hell; or because sin is so hateful in itself.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.205",
+      "question_number": 205,
+      "lesson": "On Contrition",
+      "question": "Is imperfect contrition sufficient for a worthy confession?",
+      "answer": "Imperfect contrition is sufficient for a worthy confession, but we should endeavor to have perfect contrition.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.206",
+      "question_number": 206,
+      "lesson": "On Contrition",
+      "question": "What do you mean by a firm purpose of sinning no more?",
+      "answer": "By a firm purpose of sinning no more I mean a fixed resolve not only to avoid all mortal sin, but also its near occasions.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.207",
+      "question_number": 207,
+      "lesson": "On Contrition",
+      "question": "What do you mean by the near occasions of sin?",
+      "answer": "By the near occasions of sin I mean all the persons, places, and things that may easily lead us into sin.",
       "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
     },
     {

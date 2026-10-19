@@ -22,10 +22,10 @@ using Node's type stripping). No dependencies, no API key.
    are refused with a graceful redirect before retrieval. This is
    layer two in `docs/AI_GUARDRAILS.md` terms.
 2. **Retrieval.** Keyword overlap over a small public domain corpus:
-   66 questions from the Baltimore Catechism No. 2 (Project Gutenberg
+   79 questions from the Baltimore Catechism No. 2 (Project Gutenberg
    14552), covering the end of man, the sacraments, Baptism,
    Confirmation, the gifts and fruits of the Holy Ghost, Penance,
-   the Holy Eucharist, and prayer. Below a score threshold the demo
+   Contrition, the Holy Eucharist, and prayer. Below a score threshold the demo
    answers that the corpus does not cover the question. It does not
    guess.
 3. **Answer.** The corpus passage, verbatim, with its citation. The

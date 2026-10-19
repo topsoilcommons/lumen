@@ -8,8 +8,8 @@ https://www.gutenberg.org/cache/epub/14552/pg14552.txt
 
 The corpus is a deliberately small selection of lessons (the end of
 man, the sacraments in general, Baptism, Confirmation, the gifts and
-fruits of the Holy Ghost, Penance, the Holy Eucharist, prayer), 66
-questions in total.
+fruits of the Holy Ghost, Penance, Contrition, the Holy Eucharist,
+prayer), 79 questions in total.
 
 Two questions are excluded on purpose, and the exclusion is part of
 the design record: Q. 241 and Q. 242 quote the words of consecration
@@ -42,6 +42,11 @@ four new answers was checked against the output refuser before it
 was added, in the same way as the rest of the corpus: none tripped
 it, so this lesson has no exclusions.
 
+Lesson Eighteenth, On Contrition (Q. 195 to Q. 207), was added on
+2026-10-19. Every one of its thirteen answers was checked against
+the output refuser before it was added, in the same way as the rest
+of the corpus: none tripped it, so this lesson has no exclusions.
+
 Usage: python build_corpus.py <path-to-pg14552.txt> [out.json]
 """
 
@@ -57,6 +62,7 @@ SELECTED = (
     + list(range(166, 176))     # Confirmation
     + list(range(176, 187))     # the gifts and fruits of the Holy Ghost
     + list(range(187, 195))     # Penance
+    + list(range(195, 208))     # Contrition
     + [238, 239, 240]           # the Holy Eucharist (241, 242 excluded, see above)
     + list(range(243, 249))
     + list(range(303, 308))     # prayer
@@ -69,6 +75,7 @@ LESSONS = [
     (166, 175, "On Confirmation"),
     (176, 186, "On the Gifts and Fruits of the Holy Ghost"),
     (187, 194, "On the Sacrament of Penance"),
+    (195, 207, "On Contrition"),
     (238, 248, "On the Holy Eucharist"),
     (303, 307, "On Prayer"),
 ]
