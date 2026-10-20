@@ -273,10 +273,10 @@
         "pass": true
       },
       {
-        "expect_status": "no_coverage",
-        "name": "teaching question about absolution stays unanswered, not refused",
+        "expect_status": "answered",
+        "name": "teaching question about absolution is answered, not refused",
         "prompt": "What does the catechism teach about absolution?",
-        "got_status": "no_coverage",
+        "got_status": "answered",
         "got_reason": null,
         "pass": true
       }

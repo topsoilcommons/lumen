@@ -9,7 +9,7 @@ https://www.gutenberg.org/cache/epub/14552/pg14552.txt
 The corpus is a deliberately small selection of lessons (the end of
 man, the sacraments in general, Baptism, Confirmation, the gifts and
 fruits of the Holy Ghost, Penance, Contrition, the Holy Eucharist,
-prayer), 95 questions in total.
+prayer), 102 questions in total.
 
 Two questions are excluded on purpose, and the exclusion is part of
 the design record: Q. 241 and Q. 242 quote the words of consecration
@@ -53,6 +53,12 @@ against the output refuser before it was added, in the same way as
 the rest of the corpus: none tripped it, so this lesson has no
 exclusions.
 
+Lesson Twentieth, On the Manner of Making a Good Confession
+(Q. 224 to Q. 230), was added on 2026-10-20. Every one of its seven
+answers was checked against the output refuser before it was added,
+in the same way as the rest of the corpus: none tripped it, so this
+lesson has no exclusions.
+
 Usage: python build_corpus.py <path-to-pg14552.txt> [out.json]
 """
 
@@ -70,6 +76,7 @@ SELECTED = (
     + list(range(187, 195))     # Penance
     + list(range(195, 208))     # Contrition
     + list(range(208, 224))     # Confession
+    + list(range(224, 231))     # the manner of making a good Confession
     + [238, 239, 240]           # the Holy Eucharist (241, 242 excluded, see above)
     + list(range(243, 249))
     + list(range(303, 308))     # prayer
@@ -84,6 +91,7 @@ LESSONS = [
     (187, 194, "On the Sacrament of Penance"),
     (195, 207, "On Contrition"),
     (208, 223, "On Confession"),
+    (224, 230, "On the Manner of Making a Good Confession"),
     (238, 248, "On the Holy Eucharist"),
     (303, 307, "On Prayer"),
 ]

@@ -1,7 +1,7 @@
 {
   "corpus": "Baltimore Catechism No. 2, selected lessons (public domain)",
   "source_url": "https://www.gutenberg.org/cache/epub/14552/pg14552.txt",
-  "passage_count": 95,
+  "passage_count": 102,
   "excluded": [
     {
       "id": "BC2 Q.241",
@@ -659,6 +659,62 @@
       "lesson": "On Confession",
       "question": "Which are the chief corporal works of mercy?",
       "answer": "The chief corporal works of mercy are seven: To feed the hungry, to give drink to the thirsty, to clothe the naked, to ransom the captive, to harbor the harborless, to visit the sick, and to bury the dead.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.224",
+      "question_number": 224,
+      "lesson": "On the Manner of Making a Good Confession",
+      "question": "What should we do on entering the confessional?",
+      "answer": "On entering the confessional we should kneel, make the sign of the Cross, and say to the priest, Bless me, Father; then add, I confess to Almighty God and to you, Father, that I have sinned.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.225",
+      "question_number": 225,
+      "lesson": "On the Manner of Making a Good Confession",
+      "question": "Which are the first things we should tell the priest in Confession?",
+      "answer": "The first things we should tell the priest in Confession are the time of our last Confession, and whether we said the penance and went to Holy Communion.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.226",
+      "question_number": 226,
+      "lesson": "On the Manner of Making a Good Confession",
+      "question": "After telling the time of our last Confession and Communion what should we do?",
+      "answer": "After telling the time of our last Confession and Communion we should confess all the mortal sins we have since committed, and all the venial sins we may wish to mention.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.227",
+      "question_number": 227,
+      "lesson": "On the Manner of Making a Good Confession",
+      "question": "What must we do when the confessor asks us questions?",
+      "answer": "When the confessor asks us questions we must answer them truthfully and clearly.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.228",
+      "question_number": 228,
+      "lesson": "On the Manner of Making a Good Confession",
+      "question": "What should we do after telling our sins?",
+      "answer": "After telling our sins we should listen with attention to the advice which the confessor may think proper to give.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.229",
+      "question_number": 229,
+      "lesson": "On the Manner of Making a Good Confession",
+      "question": "How should we end our Confession?",
+      "answer": "We should end our Confession by saying, I also accuse myself of all the sins of my past life, telling, if we choose, one or several of our past sins.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.230",
+      "question_number": 230,
+      "lesson": "On the Manner of Making a Good Confession",
+      "question": "What should we do while the priest is giving us absolution?",
+      "answer": "While the priest is giving us absolution we should from our heart renew the Act of Contrition.",
       "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
     },
     {
