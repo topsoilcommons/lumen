@@ -1,7 +1,7 @@
 {
   "corpus": "Baltimore Catechism No. 2, selected lessons (public domain)",
   "source_url": "https://www.gutenberg.org/cache/epub/14552/pg14552.txt",
-  "passage_count": 109,
+  "passage_count": 110,
   "excluded": [
     {
       "id": "BC2 Q.241",
@@ -10,6 +10,10 @@
     {
       "id": "BC2 Q.242",
       "reason": "Question and answer quote the words of consecration verbatim; same design conflict as Q.241."
+    },
+    {
+      "id": "BC2 Q.250",
+      "reason": "Answer quotes the words of consecration verbatim; same design conflict as Q.241."
     }
   ],
   "passages": [
@@ -843,6 +847,14 @@
       "lesson": "On the Holy Eucharist",
       "question": "Does this change of bread and wine into the body and blood of Christ continue to be made in the Church?",
       "answer": "This change of bread and wine into the body and blood of Christ continues to be made in the Church by Jesus Christ through the ministry of His priests.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.249",
+      "question_number": 249,
+      "lesson": "On the Holy Eucharist",
+      "question": "When did Christ give His priests the power to change bread and wine into His body and blood?",
+      "answer": "Christ gave His priests the power to change bread and wine into His body and blood when He said to the Apostles, Do this in commemoration of Me.",
       "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
     },
     {

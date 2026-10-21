@@ -9,15 +9,15 @@ https://www.gutenberg.org/cache/epub/14552/pg14552.txt
 The corpus is a deliberately small selection of lessons (the end of
 man, the sacraments in general, Baptism, Confirmation, the gifts and
 fruits of the Holy Ghost, Penance, Contrition, Indulgences, the
-Holy Eucharist, prayer), 109 questions in total.
+Holy Eucharist, prayer), 110 questions in total.
 
-Two questions are excluded on purpose, and the exclusion is part of
-the design record: Q. 241 and Q. 242 quote the words of consecration
-verbatim ("This is My body; this is My blood"). The package's output
-refuser (src/refuser.ts) hard rejects that shape before rendering, by
-design, so a verbatim answer to those two questions could never be
-served. Rather than weaken the refuser, the demo corpus omits them.
-See demo/README.md, "Known tensions".
+Three questions are excluded on purpose, and the exclusion is part
+of the design record: Q. 241, Q. 242, and Q. 250 quote the words of
+consecration verbatim ("This is My body; this is My blood"). The
+package's output refuser (src/refuser.ts) hard rejects that shape
+before rendering, by design, so a verbatim answer to those three
+questions could never be served. Rather than weaken the refuser,
+the demo corpus omits them. See demo/README.md, "Known tensions".
 
 Lesson Fifteenth, On Confirmation (Q. 166 to Q. 175), was added on
 2026-10-17. Every one of its ten answers was checked against the
@@ -64,6 +64,20 @@ on 2026-10-20. Every one of its seven answers was checked against
 the output refuser before it was added, in the same way as the rest
 of the corpus: none tripped it, so this lesson has no exclusions.
 
+Lesson Twenty-Second, On the Holy Eucharist (Q. 238 to Q. 250),
+was completed on 2026-10-21. Q. 238 to Q. 240 and Q. 243 to Q. 248
+were already in the corpus as a partial selection from this
+lesson, and Q. 241 and Q. 242 were already excluded (see above).
+The two remaining answers were checked against the output refuser
+before adding, in the same way as the rest of the corpus: Q. 249
+did not trip it and was added; Q. 250 tripped it
+(sacrament_substitution, because its answer quotes the words of
+consecration verbatim), so Q. 250 is excluded and the exclusion is
+recorded in the corpus below, in the same way as Q. 241 and
+Q. 242. All thirteen lesson answers, Q. 238 to Q. 250, were
+checked: ten did not trip the refuser and three (Q. 241, Q. 242,
+Q. 250) did, all three excluded.
+
 Usage: python build_corpus.py <path-to-pg14552.txt> [out.json]
 """
 
@@ -84,7 +98,7 @@ SELECTED = (
     + list(range(224, 231))     # the manner of making a good Confession
     + list(range(231, 238))     # Indulgences
     + [238, 239, 240]           # the Holy Eucharist (241, 242 excluded, see above)
-    + list(range(243, 249))
+    + list(range(243, 250))     # (250 excluded, see above)
     + list(range(303, 308))     # prayer
 )
 
@@ -99,7 +113,7 @@ LESSONS = [
     (208, 223, "On Confession"),
     (224, 230, "On the Manner of Making a Good Confession"),
     (231, 237, "On Indulgences"),
-    (238, 248, "On the Holy Eucharist"),
+    (238, 250, "On the Holy Eucharist"),
     (303, 307, "On Prayer"),
 ]
 
@@ -145,6 +159,7 @@ def main():
         "excluded": [
             {"id": "BC2 Q.241", "reason": "Answer quotes the words of consecration verbatim; the output refuser rejects that shape by design."},
             {"id": "BC2 Q.242", "reason": "Question and answer quote the words of consecration verbatim; same design conflict as Q.241."},
+            {"id": "BC2 Q.250", "reason": "Answer quotes the words of consecration verbatim; same design conflict as Q.241."},
         ],
         "passages": passages,
     }

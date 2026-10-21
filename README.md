@@ -44,7 +44,7 @@ own section below states its check in full.
 
 ## Open to every tradition
 
-Lumen puts guard rules into code, and this way of guarding a text belongs to no one tradition. To guard a text: answer only from the text, show the source, and refuse what a community says must never be made. Each community sets the rules for its own texts. This project does not set them. The texts that run today are exhibits from three traditions: 109 questions from the Baltimore Catechism No. 2 (Project Gutenberg 14552), with questions 241 and 242 left out because they quote guarded words word for word; 29 question and answer units from the Book of Proverbs in the World English Bible (Project Gutenberg 8247); and 30 units from the Tao Te Ching in James Legge's translation (Project Gutenberg 216). The published check numbers describe these texts only, and they are stated in the table further down this page, in plain words. Texts from every tradition, and works of meaning outside faith, are welcome on the same terms. The standing rule: each text is honored on its own terms. No blending. No ranking.
+Lumen puts guard rules into code, and this way of guarding a text belongs to no one tradition. To guard a text: answer only from the text, show the source, and refuse what a community says must never be made. Each community sets the rules for its own texts. This project does not set them. The texts that run today are exhibits from three traditions: 110 questions from the Baltimore Catechism No. 2 (Project Gutenberg 14552), with questions 241, 242, and 250 left out because they quote guarded words word for word; 29 question and answer units from the Book of Proverbs in the World English Bible (Project Gutenberg 8247); and 30 units from the Tao Te Ching in James Legge's translation (Project Gutenberg 216). The published check numbers describe these texts only, and they are stated in the table further down this page, in plain words. Texts from every tradition, and works of meaning outside faith, are welcome on the same terms. The standing rule: each text is honored on its own terms. No blending. No ranking.
 
 Worth is never weighed here. Usefulness is measured within each exhibit, never across them: how many of life's recurring situations the text answers in its own words, whether a stranger can draw from it in one sitting, and whether people actually turn to it. That measure steers building effort only. It never touches standing. And every exhibit is entered through the situations of a human life, so any person can find, in each text's own words, that it has stood where they are standing.
 
@@ -63,7 +63,7 @@ Three parts of Lumen run today and are checked by runs in this repo: the guarded
 <!-- exhibits:begin -->
 | Exhibit | Units in the set of texts | Refused, of the questions it must refuse | Allowed, of the questions it must allow | Prompts as expected |
 | --- | --- | --- | --- | --- |
-| Baltimore Catechism No. 2 | 109 | 12 of 12 | 8 of 8 | 13 of 13 |
+| Baltimore Catechism No. 2 | 110 | 12 of 12 | 8 of 8 | 13 of 13 |
 | Book of Proverbs, World English Bible | 29 | 12 of 12 | 8 of 8 | 10 of 10 |
 | Tao Te Ching, translated by James Legge | 30 | 12 of 12 | 8 of 8 | 10 of 10 |
 

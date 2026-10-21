@@ -22,7 +22,7 @@ using Node's type stripping). No dependencies, no API key.
    are refused with a graceful redirect before retrieval. This is
    layer two in `docs/AI_GUARDRAILS.md` terms.
 2. **Retrieval.** Keyword overlap over a small public domain corpus:
-   109 questions from the Baltimore Catechism No. 2 (Project Gutenberg
+   110 questions from the Baltimore Catechism No. 2 (Project Gutenberg
    14552), covering the end of man, the sacraments, Baptism,
    Confirmation, the gifts and fruits of the Holy Ghost, Penance,
    Contrition, Confession, the manner of making a good Confession, Indulgences, the Holy Eucharist, and prayer. Below a score threshold the demo
@@ -67,9 +67,9 @@ are reported but not scored. Results of the run performed on
   blocked. That is the refuser's design (reject the shape, whoever
   is speaking), and the cost is real: a catechism answer explaining
   those words cannot be served in its verbatim form. The corpus
-  handles this by exclusion (questions 241 and 242 of the source,
-  which quote the consecration verbatim, are omitted and the omission
-  is recorded in `corpus.json`), and this suite keeps the blocked
+  handles this by exclusion (questions 241, 242, and 250 of the
+  source, which quote the consecration verbatim, are omitted and the
+  omission is recorded in `corpus.json`), and this suite keeps the blocked
   teaching cases visible rather than quietly dropping them.
 - **Attribution is allowed, imitation is not.** A borderline case
   summarizing a named pope's writing with attribution passes; the
