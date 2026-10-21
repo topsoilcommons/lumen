@@ -1,7 +1,7 @@
 {
   "corpus": "Baltimore Catechism No. 2, selected lessons (public domain)",
   "source_url": "https://www.gutenberg.org/cache/epub/14552/pg14552.txt",
-  "passage_count": 110,
+  "passage_count": 121,
   "excluded": [
     {
       "id": "BC2 Q.241",
@@ -855,6 +855,94 @@
       "lesson": "On the Holy Eucharist",
       "question": "When did Christ give His priests the power to change bread and wine into His body and blood?",
       "answer": "Christ gave His priests the power to change bread and wine into His body and blood when He said to the Apostles, Do this in commemoration of Me.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.251",
+      "question_number": 251,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "Why did Christ institute the Holy Eucharist?",
+      "answer": "Christ instituted the Holy Eucharist-- 1. To unite us to Himself and to nourish our soul with His divine life. 2. To increase sanctifying grace and all virtues in our soul. 3. To lessen our evil inclinations. 4. To be a pledge of everlasting life. 5. To fit our bodies for a glorious resurrection. 6. To continue the sacrifice of the Cross in His Church.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.252",
+      "question_number": 252,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "How are we united to Jesus Christ in the Holy Eucharist?",
+      "answer": "We are united to Jesus Christ in the Holy Eucharist by means of Holy Communion.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.253",
+      "question_number": 253,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "What is Holy Communion?",
+      "answer": "Holy Communion is the receiving of the body and blood of Christ.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.254",
+      "question_number": 254,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "What is necessary to make a good Communion?",
+      "answer": "To make a good Communion it is necessary to be in the state of sanctifying grace, to have a right intention, and to obey the laws of fasting. (See Q. 257.)",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.255",
+      "question_number": 255,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "Does he who receives Communion in mortal sin receive the body and blood of Christ?",
+      "answer": "He who receives Communion in mortal sin receives the body and blood of Christ, but does not receive His grace, and he commits a great sacrilege.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.256",
+      "question_number": 256,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "Is it enough to be free from mortal sin to receive plentifully the graces of Holy Communion?",
+      "answer": "To receive plentifully the graces of Holy Communion it is not enough to be free from mortal sin, but we should be free from all affection to venial sin, and should make acts of faith, hope, and love.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.257",
+      "question_number": 257,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "What is the fast necessary for Holy Communion?",
+      "answer": "The fast necessary for Holy Communion is to abstain from all food, beverages, and alcoholic drinks for one hour before Holy Communion. Water may be taken at any time. The sick may take food, non-alcoholic drinks, and any medicine up to Communion time. [This answer has been changed in the 1977 printing to bring it up to date with the current rules.]",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.258",
+      "question_number": 258,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "Is any one ever allowed to receive Holy Communion when not fasting?",
+      "answer": "Any one in danger of death is allowed to receive Holy Communion when not fasting or when it is necessary to save the Blessed Sacrament from insult or injury.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.259",
+      "question_number": 259,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "When are we bound to receive Holy Communion?",
+      "answer": "We are bound to receive Holy Communion, under pain of mortal sin, during the Easter time and when in danger of death.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.260",
+      "question_number": 260,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "Is it well to receive Holy Communion often?",
+      "answer": "It is well to receive Holy Communion often, as nothing is a greater aid to a holy life than often to receive the Author of all grace and the Source of all good.",
+      "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
+    },
+    {
+      "id": "BC2 Q.261",
+      "question_number": 261,
+      "lesson": "On the Ends for Which the Holy Eucharist Was Instituted",
+      "question": "What should we do after Holy Communion?",
+      "answer": "After Holy Communion we should spend some time in adoring our Lord, in thanking Him for the grace we have received, and in asking Him for the blessings we need.",
       "source": "Baltimore Catechism No. 2 (Project Gutenberg 14552)"
     },
     {

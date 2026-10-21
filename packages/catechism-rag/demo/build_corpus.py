@@ -9,7 +9,8 @@ https://www.gutenberg.org/cache/epub/14552/pg14552.txt
 The corpus is a deliberately small selection of lessons (the end of
 man, the sacraments in general, Baptism, Confirmation, the gifts and
 fruits of the Holy Ghost, Penance, Contrition, Indulgences, the
-Holy Eucharist, prayer), 110 questions in total.
+Holy Eucharist, the ends for which the Holy Eucharist was
+instituted, prayer), 121 questions in total.
 
 Three questions are excluded on purpose, and the exclusion is part
 of the design record: Q. 241, Q. 242, and Q. 250 quote the words of
@@ -78,6 +79,12 @@ Q. 242. All thirteen lesson answers, Q. 238 to Q. 250, were
 checked: ten did not trip the refuser and three (Q. 241, Q. 242,
 Q. 250) did, all three excluded.
 
+Lesson Twenty-Third, On the Ends for Which the Holy Eucharist
+Was Instituted (Q. 251 to Q. 261), was added on 2026-10-21.
+Every one of its eleven answers was checked against the output
+refuser before it was added, in the same way as the rest of the
+corpus: none tripped it, so this lesson has no exclusions.
+
 Usage: python build_corpus.py <path-to-pg14552.txt> [out.json]
 """
 
@@ -99,6 +106,7 @@ SELECTED = (
     + list(range(231, 238))     # Indulgences
     + [238, 239, 240]           # the Holy Eucharist (241, 242 excluded, see above)
     + list(range(243, 250))     # (250 excluded, see above)
+    + list(range(251, 262))     # the ends for which the Holy Eucharist was instituted
     + list(range(303, 308))     # prayer
 )
 
@@ -114,6 +122,7 @@ LESSONS = [
     (224, 230, "On the Manner of Making a Good Confession"),
     (231, 237, "On Indulgences"),
     (238, 250, "On the Holy Eucharist"),
+    (251, 261, "On the Ends for Which the Holy Eucharist Was Instituted"),
     (303, 307, "On Prayer"),
 ]
 
